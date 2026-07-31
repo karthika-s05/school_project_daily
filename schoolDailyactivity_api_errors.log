@@ -1,0 +1,48 @@
+{
+  "companyName": "SHOPPERS STOP LIMITED",
+  "officialcompanyName": "SHOPPERS STOP LIMITED",
+  "industryType": "Service",
+  "address": "3rd Floor UMANG TOWER LINK ROAD MIND SPACE,",
+  "address1": "MALAD WEST Mumbai Suburban",
+  "pinCode": "400064",
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "country": "India",
+  "panNo": "AABCS4383A",
+  "email": "mohit.wahal@sifycorp.com",
+  "password": "Mohitwahal@12345",
+  "firstName": "mohit",
+  "lastName": "wahal",
+  "mobileNo": "9223583321",
+  "designation": "Associate - IT"
+}
+
+{
+  "companyName": "ICICI BANK CTS PROJECT",
+  "officialcompanyName": "ICICI BANK CTS PROJECT",
+  "industryType": "Service",
+  "address": "Butt Road",
+  "address1": "St thomas mount",
+  "pinCode": "600016",
+  "city": "Chennai",
+  "state": "Tamil Nadu",
+  "country": "India",
+  "panNo": "AAACI1195Y",
+  "email": "christopher.anthony@sifycorp.com",
+  "password": "Christopher@12345",
+  "firstName": "Christopher",
+  "lastName": "Anthony",
+  "mobileNo": "9223583321",
+  "designation": "Associate - IT"
+}{
+  message: '/get_assignment -- GET -- resolvedCallback is not defined',
+  level: 'error',
+  services: 'user-service',
+  timestamp: '2026-07-31 16:51:42'
+}
+{
+  message: '/get_assignment -- GET -- resolvedCallback is not defined',
+  level: 'error',
+  services: 'user-service',
+  timestamp: '2026-07-31 16:58:21'
+}
