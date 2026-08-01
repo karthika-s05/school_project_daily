@@ -4,7 +4,7 @@ const getStudentClassSection = (userName, administrationId) =>
   new Promise((resolve) => {
     console.log("userName", userName);
     console.log("administrationId", administrationId);
-    const admissionNo = String(userName || "").trim();
+    const admissionNo = userName || "";
     const adminId = String(administrationId || "").trim();
     if (!admissionNo || !adminId) return resolve(null);
     const query = con.query(
@@ -23,6 +23,8 @@ const getStudentClassSection = (userName, administrationId) =>
         LIMIT 1`,
       [admissionNo],
       (err, rows) => {
+        console.log("err", err);
+        console.log("rows", rows);
         if (err || !rows?.length) return resolve(null);
         resolve({
           classId: rows[0].classId,
@@ -32,7 +34,6 @@ const getStudentClassSection = (userName, administrationId) =>
         });
       }
     );
-    console.log("query", query.sql);
   });
 
 module.exports = { getStudentClassSection };

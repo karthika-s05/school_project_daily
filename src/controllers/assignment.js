@@ -180,7 +180,7 @@ module.exports = {
         assignmentInfo,
         staffId,
         administrationId,
-        (err) => {
+        (err, assignment) => {
           const message = id == 0 ? "created" : "updated";
           if (err) {
             res.send({
@@ -188,6 +188,7 @@ module.exports = {
               message: err.sqlMessage || err.message || err,
             });
           } else {
+            const assignmentId = Number(id) || Number(assignment?.insertId) || 0;
             notificationService
               .notifyAudience({
                 audience: "Selected Class",
@@ -199,7 +200,7 @@ module.exports = {
                 senderId: staffId,
                 classId: assignmentInfo.classId,
                 sectionId: assignmentInfo.sectionId,
-                referenceId: id || null,
+                referenceId: assignmentId || null,
                 administrationId,
               })
               .catch((notificationError) => {
@@ -246,13 +247,21 @@ module.exports = {
             "No class/section is mapped to this student. Please contact the school admin.",
         });
       }
-
+      console.log("Class Id", classId);
+      console.log("Section Id", sectionId);
+      console.log("Administration Id", administrationId);
+      console.log("Id", id);
+      console.log("Status", status);
+      console.log("Student Id", studentId);
+      console.log("Administration Id", administrationId);
       await assignmentModel.canStudentUpdateAssignmentProgress(
         id,
         classId,
         sectionId,
         administrationId,
         (ownershipErr, canUpdate) => {
+          console.log("ownershipErr", ownershipErr);
+          console.log("canUpdate", canUpdate);
           if (ownershipErr) {
             return res.send({
               status: "Error",

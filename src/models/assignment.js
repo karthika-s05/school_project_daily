@@ -30,45 +30,51 @@ const ensureProgressTable = async () => {
 
 module.exports = {
   getAssignment: async (classId, sectionId, administrationId, studentId, callback) => {
-    console.log("classId", classId);
-    console.log("sectionId", sectionId);
-    console.log("administrationId", administrationId);
-    console.log("studentId", studentId);
-
-
     try {
-      const data = await queryAsync(
-        `SELECT
-    ass.id,
-    ass.subjectId,
-    s.name AS subject,
-    ass.title,
-    ass.description,
-    DATE_FORMAT(ass.startDate, '%Y-%m-%d') AS startDate,
-    DATE_FORMAT(ass.endDate, '%Y-%m-%d') AS endDate,
-    ass.status
-FROM tbl_assignment ass
-INNER JOIN subject s
-    ON s.id = ass.subjectId
-   AND s.administrationId = ass.administrationId
-WHERE ass.classId = ?
-  AND ass.sectionId = ?
-  AND ass.administrationId = ?
-  AND ass.isActive = '1'
-ORDER BY ass.createdAt DESC;
-        `,
-        [classId, sectionId, administrationId]
-      );
-      console.log("data", data);
-      let rows = Array.isArray(data) ? data : [];
-
       await ensureProgressTable();
 
-      callback(null, [
-        rows.map((row) => ({
-          ...row,
-        })),
-      ]);
+      const hasStudent = Boolean(studentId);
+      const sql = `
+        SELECT
+          ass.id,
+          ass.subjectId,
+          s.name AS subject,
+          s.name AS subjectName,
+          ass.title,
+          ass.description,
+          DATE_FORMAT(ass.startDate, '%Y-%m-%d') AS startDate,
+          DATE_FORMAT(ass.endDate, '%Y-%m-%d') AS endDate,
+          ass.status,
+          ${
+            hasStudent
+              ? `COALESCE(ap.status, 'Not Started') AS progressStatus`
+              : `'Not Started' AS progressStatus`
+          }
+        FROM tbl_assignment ass
+        INNER JOIN subject s
+          ON s.id = ass.subjectId
+         AND s.administrationId = ass.administrationId
+        ${
+          hasStudent
+            ? `LEFT JOIN tbl_assignment_progress ap
+                 ON ap.assignmentId = ass.id
+                AND ap.administrationId = ass.administrationId
+                AND ap.studentId = ?`
+            : ""
+        }
+        WHERE ass.classId = ?
+          AND ass.sectionId = ?
+          AND ass.administrationId = ?
+          AND ass.isActive = '1'
+        ORDER BY ass.createdAt DESC
+      `;
+      const params = hasStudent
+        ? [String(studentId), classId, sectionId, administrationId]
+        : [classId, sectionId, administrationId];
+
+      const data = await queryAsync(sql, params);
+      const rows = Array.isArray(data) ? data : [];
+      callback(null, [rows]);
     } catch (err) {
       callback(err, null);
     }
@@ -178,10 +184,10 @@ ORDER BY ass.createdAt DESC;
             AND sectionId = ?
             AND administrationId = ?
             AND isActive = '1'
-            AND status = 'true'
           LIMIT 1`,
-        [Number(id), Number(classId), Number(sectionId), Number(administrationId)]
+        [id, classId, sectionId, administrationId]
       );
+      console.log("rows", rows);
       callback(null, Array.isArray(rows) && rows.length > 0);
     } catch (err) {
       callback(err, null);

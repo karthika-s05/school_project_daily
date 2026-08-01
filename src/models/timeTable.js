@@ -1,34 +1,82 @@
 const con = require("../config/dbConfig");
 
-module.exports = {
- getPeriodSlot: async (classId, administrationId, callback) => {
-  const safeClassId = Number(classId ?? 0);
-  const safeAdministrationId = Number(administrationId ?? 0);
-  const sql = `CALL sp_GetPeriodSlot(${safeClassId}, ${safeAdministrationId})`;
+const ACTIVE_ACADEMIC_YEAR_SQL = `
+  SELECT academicYear
+  FROM tbl_academicyear
+  WHERE administrationId = ?
+    AND isActive = '1'
+  LIMIT 1
+`;
 
-  con.query(sql, (err, data) => {
-    if (err) {
-      console.error("getPeriodSlot SQL error:", err.sqlMessage || err.message || err);
-      callback(err, null);
-    } else {
-      callback(null, data);
+module.exports = {
+  getPeriodSlot: async (classId, administrationId, callback) => {
+    const safeClassId = Number(classId ?? 0);
+    const safeAdministrationId = Number(administrationId ?? 0);
+    const conditions = [
+      "p.administrationId = ?",
+      "p.isActive = '1'",
+      `p.academicYear = (${ACTIVE_ACADEMIC_YEAR_SQL})`,
+    ];
+    const params = [safeAdministrationId, safeAdministrationId];
+
+    if (safeClassId > 0) {
+      conditions.push("p.classId = ?");
+      params.push(safeClassId);
     }
-  });
-},
+
+    const sql = `
+      SELECT
+        p.id,
+        p.startTime,
+        p.endTime,
+        p.classId,
+        cm.name AS className,
+        CONCAT(p.startTime, ' - ', p.endTime) AS slotName
+      FROM tbl_periodslot p
+      JOIN classmaster cm
+        ON p.classId = cm.id
+       AND cm.administrationId = p.administrationId
+      WHERE ${conditions.join(" AND ")}
+      ORDER BY p.classId, p.startTime
+    `;
+
+    con.query(sql, params, (err, rows) => {
+      if (err) {
+        console.error("getPeriodSlot SQL error:", err.sqlMessage || err.message || err);
+        callback(err, null);
+      } else {
+        callback(null, [rows || []]);
+      }
+    });
+  },
   getPeriodSlotById: async (id, administrationId, callback) => {
-    const sql = "CALL sp_GetPeriodSlotById(?, ?)";
+    const sql = `
+      SELECT
+        p.id,
+        p.startTime,
+        p.endTime,
+        p.classId,
+        cm.name AS className,
+        CONCAT(p.startTime, ' - ', p.endTime) AS slotName
+      FROM tbl_periodslot p
+      JOIN classmaster cm
+        ON p.classId = cm.id
+       AND cm.administrationId = p.administrationId
+      WHERE p.id = ?
+        AND p.administrationId = ?
+        AND p.isActive = '1'
+      LIMIT 1
+    `;
+
     con.query(
       sql,
       [Number(id) || 0, Number(administrationId) || 0],
-      (err, data) => {
+      (err, rows) => {
         if (err) {
           callback(err, null);
           return;
         }
-        // CALL results: [rows, okPacket]
-        const rows = Array.isArray(data) ? data[0] ?? [] : [];
-        // Normalize TIME columns (HH:MM:SS) to HH:MM for <input type="time">
-        const normalized = rows.map((row) => ({
+        const normalized = (rows || []).map((row) => ({
           ...row,
           startTime: String(row.startTime ?? "").slice(0, 5),
           endTime: String(row.endTime ?? "").slice(0, 5),
@@ -45,31 +93,83 @@ module.exports = {
     administrationId,
     callback
   ) => {
-    const sql = `CALL sp_InsertUpdatePeriodSlot(?, ?, ?, ?, ?)`;
-    const params = [
-      Number(id) || 0,
-      startTime,
-      endTime,
-      Number(classId) || 0,
-      Number(administrationId) || 0,
-    ];
-    con.query(sql, params, (err, data) => {
-      if (err) {
-        callback(err, null);
-      } else {
-        callback(null, data);
+    const safeId = Number(id) || 0;
+    const safeClassId = Number(classId) || 0;
+    const safeAdministrationId = Number(administrationId) || 0;
+
+    con.query(ACTIVE_ACADEMIC_YEAR_SQL, [safeAdministrationId], (yearErr, yearRows) => {
+      if (yearErr) {
+        callback(yearErr, null);
+        return;
       }
+
+      const academicYear = yearRows?.[0]?.academicYear;
+      if (!academicYear) {
+        callback(new Error("Active academic year not found"), null);
+        return;
+      }
+
+      if (safeId === 0) {
+        const insertSql = `
+          INSERT INTO tbl_periodslot (
+            startTime,
+            endTime,
+            classId,
+            administrationId,
+            isActive,
+            academicYear
+          )
+          VALUES (?, ?, ?, ?, '1', ?)
+        `;
+        con.query(
+          insertSql,
+          [startTime, endTime, safeClassId, safeAdministrationId, academicYear],
+          (err, result) => {
+            callback(err, err ? null : result);
+          }
+        );
+        return;
+      }
+
+      const updateSql = `
+        UPDATE tbl_periodslot
+        SET startTime = ?,
+            endTime = ?,
+            classId = ?,
+            updatedAt = CURRENT_TIMESTAMP
+        WHERE id = ?
+          AND administrationId = ?
+          AND isActive = '1'
+      `;
+      con.query(
+        updateSql,
+        [startTime, endTime, safeClassId, safeId, safeAdministrationId],
+        (err, result) => {
+          callback(err, err ? null : result);
+        }
+      );
     });
   },
   deletePeriodSlot: async (id, administrationId, callback) => {
-    const sql = `call sp_DeletePeriodSlot(${id},${administrationId})`;
-    con.query(sql, (err, TimeTable) => {
-      if (err) {
-        callback(err, null);
-      } else {
-        callback(null, TimeTable);
+    const sql = `
+      UPDATE tbl_periodslot
+      SET isActive = '0',
+          updatedAt = CURRENT_TIMESTAMP
+      WHERE id = ?
+        AND administrationId = ?
+        AND isActive = '1'
+    `;
+    con.query(
+      sql,
+      [Number(id) || 0, Number(administrationId) || 0],
+      (err, result) => {
+        if (err) {
+          callback(err, null);
+        } else {
+          callback(null, result);
+        }
       }
-    });
+    );
   },
 
   getClasstimeTable: async (

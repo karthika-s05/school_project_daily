@@ -504,7 +504,11 @@ module.exports = {
     }
   },
   getDay: async (req, res) => {
-    let sql = `CALL sp_getDay`;
+    const sql = `
+      SELECT dayNumber AS id, dayName
+      FROM tbl_calendar
+      LIMIT 7
+    `;
     con.query(sql, (err, day) => {
       if (err) {
         data = {
@@ -515,7 +519,7 @@ module.exports = {
       } else {
         data = {
           status: "success",
-          data: day[0],
+          data: day,
         };
         res.send(data);
       }

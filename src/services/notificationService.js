@@ -78,6 +78,33 @@ const cleanType = (value) => {
   return match || "Announcement";
 };
 
+const normalizeReferenceId = (value) => {
+  if (value == null || value === "") return "";
+  return String(value).trim();
+};
+
+const dedupeNotificationRows = (rows = []) => {
+  const seen = new Map();
+  for (const row of rows) {
+    const key = [
+      row.notificationType,
+      normalizeReferenceId(row.referenceId),
+      row.title,
+      row.message,
+      row.receiverRole,
+    ].join("|");
+    const existing = seen.get(key);
+    if (!existing || Number(row.id) > Number(existing.id)) {
+      seen.set(key, row);
+    }
+  }
+  return [...seen.values()].sort(
+    (a, b) =>
+      new Date(b.createdAt || 0).getTime() -
+      new Date(a.createdAt || 0).getTime()
+  );
+};
+
 const canonicalRole = (value) => {
   const role = String(value || "").trim().toLowerCase();
   if (role.includes("admin")) return "Admin";
@@ -186,11 +213,6 @@ const resolveNotificationIdentity = async (user = {}) => {
   }
 
   const resolvedIds = [...receiverIds];
-  console.log(
-    `[notification] login identity role=${receiverRole}, administrationId=${administrationId}, receiverIds=${resolvedIds.join(
-      ","
-    )}`
-  );
   return { administrationId, receiverRole, receiverIds: resolvedIds };
 };
 
@@ -240,7 +262,7 @@ const createNotification = async ({
       role,
       classId ? Number(classId) : null,
       sectionId ? Number(sectionId) : null,
-      referenceId == null ? null : String(referenceId),
+      normalizeReferenceId(referenceId),
       eventId == null ? null : Number(eventId),
       Number(administrationId),
     ]
@@ -276,7 +298,7 @@ const createNotifications = async (payload, recipients) => {
     recipient.sectionId || payload.sectionId
       ? Number(recipient.sectionId || payload.sectionId)
       : null,
-    payload.referenceId == null ? null : String(payload.referenceId),
+    normalizeReferenceId(payload.referenceId),
     payload.eventId == null ? null : Number(payload.eventId),
     Number(payload.administrationId),
   ]);
@@ -480,15 +502,17 @@ const listNotifications = async ({
   if (unreadOnly) where.push("isRead = 0");
   params.push(Math.min(Math.max(Number(limit) || 100, 1), 250));
 
-  return query(
-    `SELECT id, title, message, notificationType, senderId, senderRole, receiverId,
-            receiverRole, classId, sectionId, referenceId, eventId, isRead, createdAt,
-            administrationId
-       FROM tbl_notification_center
-      WHERE ${where.join(" AND ")}
-      ORDER BY createdAt DESC, id DESC
-      LIMIT ?`,
-    params
+  return dedupeNotificationRows(
+    await query(
+      `SELECT id, title, message, notificationType, senderId, senderRole, receiverId,
+              receiverRole, classId, sectionId, referenceId, eventId, isRead, createdAt,
+              administrationId
+         FROM tbl_notification_center
+        WHERE ${where.join(" AND ")}
+        ORDER BY createdAt DESC, id DESC
+        LIMIT ?`,
+      params
+    )
   );
 };
 

@@ -7,11 +7,11 @@ module.exports = {
   getHomeWork: async (req, res) => {
     const role = String(req.user.role || "").trim().toLowerCase();
     const administrationId = Number(req.user.administrationId || 0);
-    let classId = role === "Student" ? req.user.classId : req.body.classId;
-    let sectionId =
-      role === "Student" ? req.user.sectionId : req.body.sectionId;
-    const studentId = role === "Student" ? req.user.userName : null;
-    if (role === "Student") {
+    const isStudent = role === "student";
+    let classId = isStudent ? req.user.classId : req.body.classId;
+    let sectionId = isStudent ? req.user.sectionId : req.body.sectionId;
+    const studentId = isStudent ? req.user.userName : null;
+    if (isStudent) {
       // JWT class/section can be stale or missing; prefer the live student row.
       const live = await getStudentClassSection(
         req.user.userName,
@@ -27,10 +27,9 @@ module.exports = {
       if (!administrationId || !classId || !sectionId) {
         return res.status(400).send({
           status: "Error",
-          message:
-            role === "Student"
-              ? "No class/section is mapped to this student. Please contact the school admin."
-              : "classId and sectionId are required",
+          message: isStudent
+            ? "No class/section is mapped to this student. Please contact the school admin."
+            : "classId and sectionId are required",
           data: [],
         });
       } else {
@@ -66,9 +65,9 @@ module.exports = {
   getHomeWorkId: async (req, res) => {
     const role = String(req.user.role || "").trim().toLowerCase();
     const administrationId = Number(req.user.administrationId || 0);
-    const classId = role === "student" ? req.user.classId : req.body.classId;
-    const sectionId =
-      role === "student" ? req.user.sectionId : req.body.sectionId;
+    const isStudent = role === "student";
+    const classId = isStudent ? req.user.classId : req.body.classId;
+    const sectionId = isStudent ? req.user.sectionId : req.body.sectionId;
     const { id } = req.body;
 
     try {
@@ -162,14 +161,28 @@ module.exports = {
   },
   updateHomeworkProgress: async (req, res) => {
     const { id, status } = req.body;
-    const {
-      userName: studentId,
-      administrationId,
-      classId,
-      sectionId,
-    } = req.user;
+    const { userName: studentId, administrationId } = req.user;
+    let classId = req.user.classId;
+    let sectionId = req.user.sectionId;
     try {
-      if (!id || !status || !studentId || !administrationId) throw "Missing Credential";
+      if (!id || !status || !studentId || !administrationId) {
+        throw "Missing Credential";
+      }
+
+      const live = await getStudentClassSection(studentId, administrationId);
+      if (live) {
+        classId = live.classId;
+        sectionId = live.sectionId;
+      }
+
+      if (!classId || !sectionId) {
+        return res.status(400).send({
+          status: "Error",
+          message:
+            "No class/section is mapped to this student. Please contact the school admin.",
+        });
+      }
+
       await homeWorkModel.canStudentUpdateHomeworkProgress(
         id,
         classId,
@@ -196,13 +209,19 @@ module.exports = {
             administrationId,
             (err) => {
               if (err)
-                res.send({ status: "Error", message: "Progress not updated", data: err.sqlMessage });
+                res.send({
+                  status: "Error",
+                  message: "Progress not updated",
+                  data: err.sqlMessage,
+                });
               else res.send({ status: "success", message: "Progress updated" });
             }
           );
         }
       );
-    } catch (error) { res.send(error); }
+    } catch (error) {
+      res.send(error);
+    }
   },
   deleteHomeWork: async (req, res) => {
     const id = req.params.id;

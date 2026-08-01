@@ -33,55 +33,115 @@ module.exports = {
       typeof studentId === "function" ? null : studentId || null;
     const resolvedCallback =
       typeof studentId === "function" ? studentId : callback;
+
     try {
-      const data = await queryAsync(`call sp_GetHomeWork(?, ?, ?)`, [
-        classId,
-        sectionId,
-        administrationId,
-      ]);
-      const rows = Array.isArray(data?.[0]) ? data[0] : [];
-
-      if (!resolvedStudentId || !rows.length) {
-        resolvedCallback(null, [rows]);
-        return;
-      }
-
       await ensureProgressTable();
-      const progressRows = await queryAsync(
-        `
-          SELECT homeworkId, status
-          FROM tbl_homework_progress
-          WHERE administrationId = ?
-            AND studentId = ?
-            AND homeworkId IN (?)
-        `,
-        [administrationId, resolvedStudentId, rows.map((row) => row.id)]
-      );
 
-      const progressMap = new Map(
-        (progressRows || []).map((row) => [Number(row.homeworkId), row.status])
-      );
+      const hasStudent = Boolean(resolvedStudentId);
+      const sql = `
+        SELECT
+          hw.id,
+          hw.description,
+          cm.id AS classId,
+          cm.name AS class,
+          cm.name AS className,
+          sm.id AS sectionId,
+          sm.name AS section,
+          sm.name AS sectionName,
+          sb.id AS subjectId,
+          sb.name AS subject,
+          sb.name AS subjectName,
+          CONCAT(st.firstName, ' ', st.lastName) AS staffName,
+          st.staffId AS staffId,
+          hw.administrationId,
+          sb.photoUrl AS photo,
+          DATE_FORMAT(DATE(hw.createdDate), '%Y-%m-%d') AS date,
+          ${
+            hasStudent
+              ? `COALESCE(hp.status, 'Pending') AS progressStatus`
+              : `'Pending' AS progressStatus`
+          }
+        FROM tbl_homework hw
+        JOIN classmaster cm ON cm.id = hw.classId
+        JOIN sectionmaster sm ON sm.id = hw.sectionId
+        JOIN subject sb ON sb.id = hw.subjectId
+        JOIN staff st ON st.staffId = hw.staffId
+        ${
+          hasStudent
+            ? `LEFT JOIN tbl_homework_progress hp
+                 ON hp.homeworkId = hw.id
+                AND hp.administrationId = hw.administrationId
+                AND hp.studentId = ?`
+            : ""
+        }
+        WHERE hw.classId = ?
+          AND hw.sectionId = ?
+          AND hw.administrationId = ?
+          AND hw.isActive = '1'
+          AND hw.academicYear = (
+            SELECT academicYear
+            FROM tbl_academicyear
+            WHERE administrationId = ?
+              AND isActive = '1'
+            LIMIT 1
+          )
+        ORDER BY hw.createdDate DESC
+      `;
 
-      resolvedCallback(null, [
-        rows.map((row) => ({
-          ...row,
-          progressStatus: progressMap.get(Number(row.id)) || row.progressStatus || "Pending",
-        })),
-      ]);
+      const params = hasStudent
+        ? [
+            String(resolvedStudentId),
+            classId,
+            sectionId,
+            administrationId,
+            administrationId,
+          ]
+        : [classId, sectionId, administrationId, administrationId];
+
+      const rows = await queryAsync(sql, params);
+      resolvedCallback(null, [Array.isArray(rows) ? rows : []]);
     } catch (err) {
       resolvedCallback(err, null);
     }
   },
+
   getHomeWorkId: async (id, classId, sectionId, administrationId, callback) => {
-    const sql = `call sp_GetHomeWorkId(?, ?, ?, ?)`;
-    con.query(sql, [id, classId, sectionId, administrationId], (err, data) => {
-      if (err) {
-        callback(err, null);
-      } else {
-        callback(null, data);
-      }
-    });
+    try {
+      const rows = await queryAsync(
+        `
+          SELECT
+            hw.id,
+            hw.description,
+            cm.id AS classId,
+            cm.name AS class,
+            sm.id AS sectionId,
+            sm.name AS section,
+            sb.id AS subjectId,
+            sb.name AS subject,
+            CONCAT(st.firstName, ' ', st.lastName) AS staffName,
+            st.staffId AS staffId,
+            hw.administrationId,
+            DATE_FORMAT(DATE(hw.createdDate), '%Y-%m-%d') AS date
+          FROM tbl_homework hw
+          JOIN classmaster cm ON cm.id = hw.classId
+          JOIN sectionmaster sm ON sm.id = hw.sectionId
+          JOIN subject sb ON sb.id = hw.subjectId
+          JOIN staff st ON st.staffId = hw.staffId
+          WHERE hw.id = ?
+            AND hw.classId = ?
+            AND hw.sectionId = ?
+            AND hw.administrationId = ?
+            AND hw.isActive = '1'
+          LIMIT 1
+        `,
+        [id, classId, sectionId, administrationId]
+      );
+      callback(null, [Array.isArray(rows) ? rows : []]);
+    } catch (err) {
+      callback(err, null);
+    }
   },
+
   createUpdateHomeWork: async (
     id,
     homeworkInfo,
@@ -91,14 +151,19 @@ module.exports = {
   ) => {
     const { description, classId, sectionId, subjectId } = homeworkInfo;
     const sql = `call sp_InsertOrUpdateHomeWork(?, ?, ?, ?, ?, ?, ?)`;
-    con.query(sql, [id, description, classId, sectionId, subjectId, staffId, administrationId], (err, homework) => {
-      if (err) {
-        callback(err, null);
-      } else {
-        callback(null, homework);
+    con.query(
+      sql,
+      [id, description, classId, sectionId, subjectId, staffId, administrationId],
+      (err, homework) => {
+        if (err) {
+          callback(err, null);
+        } else {
+          callback(null, homework);
+        }
       }
-    });
+    );
   },
+
   deleteHomeWork: async (id, administrationId, callback) => {
     const sql = `call sp_DeleteHomeWork(?, ?)`;
     con.query(sql, [id, administrationId], (err, homework) => {
@@ -109,6 +174,7 @@ module.exports = {
       }
     });
   },
+
   updateHomeworkProgress: async (id, studentId, status, administrationId, callback) => {
     try {
       await ensureProgressTable();
@@ -118,11 +184,16 @@ module.exports = {
     const sql = `INSERT INTO tbl_homework_progress (homeworkId, studentId, status, administrationId)
       VALUES (?, ?, ?, ?)
       ON DUPLICATE KEY UPDATE status=?, updatedAt=NOW()`;
-    con.query(sql, [id, studentId, status, administrationId, status], (err, data) => {
-      if (err) callback(err, null);
-      else callback(null, data);
-    });
+    con.query(
+      sql,
+      [id, studentId, status, administrationId, status],
+      (err, data) => {
+        if (err) callback(err, null);
+        else callback(null, data);
+      }
+    );
   },
+
   canStudentUpdateHomeworkProgress: async (
     id,
     classId,
@@ -131,14 +202,20 @@ module.exports = {
     callback
   ) => {
     try {
-      const data = await queryAsync(`call sp_GetHomeWorkId(?, ?, ?, ?)`, [
-        id,
-        classId,
-        sectionId,
-        administrationId,
-      ]);
-      const rows = Array.isArray(data?.[0]) ? data[0] : [];
-      callback(null, rows.length > 0);
+      const rows = await queryAsync(
+        `
+          SELECT id
+          FROM tbl_homework
+          WHERE id = ?
+            AND classId = ?
+            AND sectionId = ?
+            AND administrationId = ?
+            AND isActive = '1'
+          LIMIT 1
+        `,
+        [id, classId, sectionId, administrationId]
+      );
+      callback(null, Array.isArray(rows) && rows.length > 0);
     } catch (err) {
       callback(err, null);
     }
