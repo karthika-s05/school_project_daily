@@ -10,6 +10,218 @@ const queryAsync = (sql, params = []) =>
     con.query(sql, params, (err, rows) => (err ? reject(err) : resolve(rows)));
   });
 
+const asList = (value) => (Array.isArray(value) ? value : []);
+
+const uniqueIds = (rows, keys) => {
+  const ids = new Set();
+  asList(rows).forEach((row) => {
+    keys.forEach((key) => {
+      const value = String(row?.[key] ?? "").trim();
+      if (value) ids.add(value);
+    });
+  });
+  return [...ids];
+};
+
+const roleOf = (req) => String(req?.user?.role || "").trim().toLowerCase();
+
+/** Class/section pairs the staff member is class teacher for. */
+const getClassTeacherScope = async (staffId, administrationId) => {
+  const target = String(staffId || "").trim();
+  if (!target || !administrationId) return [];
+  try {
+    return await queryAsync(
+      `SELECT ct.classId,
+              ct.sectionId,
+              cm.name AS className,
+              sm.name AS sectionName
+         FROM tbl_classteachermap ct
+         JOIN classMaster cm ON ct.classId = cm.id
+         JOIN sectionMaster sm ON ct.sectionId = sm.id
+        WHERE ct.staffId = ?
+          AND ct.administrationId = ?
+          AND ct.isActive = '1'`,
+      [target, Number(administrationId)]
+    );
+  } catch (err) {
+    console.error("[leave] class teacher scope lookup failed:", err.message);
+    return [];
+  }
+};
+
+/** Promise wrapper around the student leave procedure. */
+const fetchStudentLeaveRows = (
+  userName,
+  classId,
+  sectionId,
+  administrationId
+) =>
+  new Promise((resolve, reject) => {
+    leaveModel.getStudentLeave(
+      userName,
+      classId,
+      sectionId,
+      administrationId,
+      (err, data) => (err ? reject(err) : resolve(asList(data?.[0])))
+    );
+  });
+
+const fetchStudentLeaveById = (leaveId, administrationId, viewerUserName) =>
+  new Promise((resolve, reject) => {
+    leaveModel.getStudentLeaveById(
+      leaveId,
+      administrationId,
+      viewerUserName,
+      (err, row) => (err ? reject(err) : resolve(row || null))
+    );
+  });
+
+const dedupeById = (rows) => {
+  const seen = new Map();
+  rows.forEach((row, index) => {
+    const key = row?.id != null ? `id:${row.id}` : `idx:${index}`;
+    if (!seen.has(key)) seen.set(key, row);
+  });
+  return [...seen.values()];
+};
+
+const buildStudentName = (row) =>
+  String(
+    row?.studentName ||
+      [row?.initial, row?.firstName, row?.middleName, row?.lastName]
+        .filter(Boolean)
+        .join(" ") ||
+      ""
+  ).trim();
+
+const getStudentDisplayName = async (admissionNo, administrationId) => {
+  try {
+    const rows = await queryAsync(
+      `SELECT admissionNo, initial, firstName, middleName, lastName,
+              TRIM(CONCAT_WS(' ',
+                NULLIF(initial, ''), firstName,
+                NULLIF(middleName, ''), lastName
+              )) AS studentName
+         FROM student
+        WHERE admissionNo = ? AND administrationId = ?
+        LIMIT 1`,
+      [String(admissionNo), Number(administrationId)]
+    );
+    const name = buildStudentName(rows?.[0]);
+    return name || String(admissionNo);
+  } catch (err) {
+    console.error("[leave-notify] student name lookup failed:", err.message);
+    return String(admissionNo);
+  }
+};
+
+const buildStaffName = (row) =>
+  String(
+    row?.staffName ||
+      row?.name ||
+      [row?.firstName, row?.middleName, row?.lastName].filter(Boolean).join(" ") ||
+      ""
+  ).trim();
+
+/** Attach real student names so leave lists do not show admission/roll numbers. */
+const enrichStudentLeaveRows = async (rows, administrationId) => {
+  const list = asList(rows);
+  if (!list.length || !administrationId) return list;
+
+  const ids = uniqueIds(list, [
+    "admissionNo",
+    "userName",
+    "studentId",
+    "userId",
+  ]);
+  if (!ids.length) return list;
+
+  try {
+    const placeholders = ids.map(() => "?").join(",");
+    const students = await queryAsync(
+      `SELECT s.admissionNo,
+              s.initial, s.firstName, s.middleName, s.lastName,
+              TRIM(CONCAT_WS(' ',
+                NULLIF(s.initial, ''), s.firstName,
+                NULLIF(s.middleName, ''), s.lastName
+              )) AS studentName,
+              s.classId, s.sectionId,
+              cm.name AS className,
+              sm.name AS sectionName
+         FROM student s
+         LEFT JOIN classMaster cm ON s.classId = cm.id
+         LEFT JOIN sectionMaster sm ON s.sectionId = sm.id
+        WHERE s.administrationId = ?
+          AND s.admissionNo IN (${placeholders})`,
+      [Number(administrationId), ...ids]
+    );
+    const byAdmission = new Map(
+      asList(students).map((row) => [String(row.admissionNo).trim(), row])
+    );
+
+    return list.map((row) => {
+      const key = String(
+        row.admissionNo || row.userName || row.studentId || row.userId || ""
+      ).trim();
+      const student = byAdmission.get(key);
+      if (!student) return row;
+      return {
+        ...row,
+        admissionNo: row.admissionNo || key,
+        studentName: buildStudentName(student) || row.studentName,
+        classId: row.classId || student.classId,
+        sectionId: row.sectionId || student.sectionId,
+        className: row.className || student.className,
+        sectionName: row.sectionName || student.sectionName,
+      };
+    });
+  } catch (err) {
+    console.error("[leave] student name enrich failed:", err.message);
+    return list;
+  }
+};
+
+/** Attach real staff names so leave lists do not show staff ids. */
+const enrichStaffLeaveRows = async (rows, administrationId) => {
+  const list = asList(rows);
+  if (!list.length || !administrationId) return list;
+
+  const ids = uniqueIds(list, ["staffId", "userName", "userId"]);
+  if (!ids.length) return list;
+
+  try {
+    const placeholders = ids.map(() => "?").join(",");
+    const staffRows = await queryAsync(
+      `SELECT staffId, firstName, middleName, lastName,
+              TRIM(CONCAT_WS(' ', firstName, NULLIF(middleName, ''), lastName)) AS staffName
+         FROM staff
+        WHERE administrationId = ?
+          AND staffId IN (${placeholders})`,
+      [Number(administrationId), ...ids]
+    );
+    const byStaffId = new Map(
+      asList(staffRows).map((row) => [
+        String(row.staffId).trim(),
+        buildStaffName(row),
+      ])
+    );
+
+    return list.map((row) => {
+      const key = String(row.staffId || row.userName || row.userId || "").trim();
+      const name = byStaffId.get(key);
+      if (!name) return row;
+      return {
+        ...row,
+        staffId: row.staffId || key,
+        staffName: name,
+      };
+    });
+  } catch (err) {
+    console.error("[leave] staff name enrich failed:", err.message);
+    return list;
+  }
+};
+
 // Staff display name for notification messages; falls back to the login id.
 const getStaffDisplayName = async (staffId, administrationId) => {
   try {
@@ -19,10 +231,7 @@ const getStaffDisplayName = async (staffId, administrationId) => {
     );
     const row = rows?.[0];
     if (!row) return String(staffId);
-    const name =
-      row.staffName ||
-      row.name ||
-      [row.firstName, row.middleName, row.lastName].filter(Boolean).join(" ");
+    const name = buildStaffName(row);
     return String(name || staffId).trim();
   } catch (err) {
     console.error("[leave-notify] staff name lookup failed:", err.message);
@@ -182,35 +391,77 @@ module.exports = {
 
   getStudentLeave: async (req, res) => {
     const userName = req.user.userName;
-    const classId = req.user.classId || req.body.classId || 0;
-    const sectionId = req.user.sectionId || req.body.sectionId || 0;
+    const role = roleOf(req);
+    const isStudent = role === "student";
+    const isAdmin = role === "admin";
     const adminstrationId = req.user.administrationId;
+
+    const bodyClassId = Number(req.body?.classId) || 0;
+    const bodySectionId = Number(req.body?.sectionId) || 0;
+
     try {
-      await leaveModel.getStudentLeave(
-        userName,
-        classId,
-        sectionId,
-        adminstrationId,
-        (err, leaveType) => {
-          if (err) {
-            logger.info(`${req.path} -- ${req.method} -- Success`);
-            res.send({
-              status: "Error",
-              message: "Leave list not retrived",
-              data: err,
-            });
-          } else {
-            logger.info(`${req.path} -- ${req.method} -- Success`);
-            res.send({
-              status: "success",
-              message: "Leave list  retrived",
-              data: leaveType[0],
-            });
-          }
+      let rows = [];
+
+      if (isStudent) {
+        rows = await fetchStudentLeaveRows(
+          userName,
+          req.user.classId || bodyClassId || 0,
+          req.user.sectionId || bodySectionId || 0,
+          adminstrationId
+        );
+      } else if (isAdmin) {
+        rows = await fetchStudentLeaveRows(
+          "0",
+          bodyClassId,
+          bodySectionId,
+          adminstrationId
+        );
+      } else {
+        // A teacher only reviews the classes they are class teacher of, so the
+        // procedure is called once per assigned class/section pair.
+        let scope = await getClassTeacherScope(userName, adminstrationId);
+        if (bodyClassId) {
+          scope = scope.filter(
+            (entry) => Number(entry.classId) === bodyClassId
+          );
         }
-      );
+        if (bodySectionId) {
+          scope = scope.filter(
+            (entry) => Number(entry.sectionId) === bodySectionId
+          );
+        }
+
+        const results = await Promise.all(
+          scope.map((entry) =>
+            fetchStudentLeaveRows(
+              "0",
+              Number(entry.classId),
+              Number(entry.sectionId),
+              adminstrationId
+            ).catch((err) => {
+              console.error(
+                `[leave] student leave fetch failed for class ${entry.classId}/${entry.sectionId}:`,
+                err.message || err
+              );
+              return [];
+            })
+          )
+        );
+        rows = dedupeById(results.flat());
+      }
+
+      logger.info(`${req.path} -- ${req.method} -- Success`);
+      res.send({
+        status: "success",
+        message: "Leave list  retrived",
+        data: await enrichStudentLeaveRows(rows, adminstrationId),
+      });
     } catch (error) {
-      res.send(error);
+      res.send({
+        status: "Error",
+        message: "Leave list not retrived",
+        data: error?.sqlMessage || error?.message || error,
+      });
     }
   },
   createStudentLeave: async (req, res) => {
@@ -252,7 +503,7 @@ module.exports = {
               classId,
               sectionId,
               administrationId,
-              (teacherErr, teacher) => {
+              async (teacherErr, teacher) => {
                 if (teacherErr) {
                   console.error(
                     "Class teacher lookup failed:",
@@ -265,11 +516,13 @@ module.exports = {
                   teacher?.userName ||
                   teacher?.staffID ||
                   teacher?.teacherId;
+                const studentName =
+                  req.user.studentName ||
+                  req.user.name ||
+                  (await getStudentDisplayName(userId, administrationId));
                 createTargetedNotification({
                   title: "Student Leave Request",
-                  message: `${
-                    req.user.studentName || req.user.name || userId
-                  } applied for leave from ${startDate} to ${endDate}. Reason: ${
+                  message: `${studentName} applied for leave from ${startDate} to ${endDate}. Reason: ${
                     reason || "Not specified"
                   }`,
                   recipientUserName: classTeacherId,
@@ -330,8 +583,39 @@ module.exports = {
     const { userName, role } = req.user;
     const administrationId = req.user.administrationId;
     try {
-      if (!id || !administrationId) {
-        throw `Missing Credential`;
+      if (roleOf(req) !== "staff") {
+        return res.status(403).send({
+          status: "Error",
+          message: "Only the assigned class teacher can update student leave",
+        });
+      }
+      const normalizedStatus = String(status || "").trim().toLowerCase();
+      if (!id || !administrationId || !["accepted", "rejected"].includes(normalizedStatus)) {
+        return res.status(400).send({
+          status: "Error",
+          message: "Valid leave id and status are required",
+        });
+      }
+
+      const [leaveRow, scope] = await Promise.all([
+        fetchStudentLeaveById(id, administrationId, userName),
+        getClassTeacherScope(userName, administrationId),
+      ]);
+      const enrichedRows = await enrichStudentLeaveRows(
+        leaveRow ? [leaveRow] : [],
+        administrationId
+      );
+      const ownedLeave = enrichedRows[0];
+      const canApprove = ownedLeave && scope.some(
+        (entry) =>
+          Number(entry.classId) === Number(ownedLeave.classId) &&
+          Number(entry.sectionId) === Number(ownedLeave.sectionId)
+      );
+      if (!canApprove) {
+        return res.status(403).send({
+          status: "Error",
+          message: "This leave request is not assigned to your class",
+        });
       }
       await leaveModel.updateStuLeaveStatus(
         id,
@@ -401,11 +685,17 @@ module.exports = {
     const adminstrationId = req.user.administrationId;
     console.log("userName", userName);
     try {
+      if (roleOf(req) !== "admin") {
+        return res.status(403).send({
+          status: "Error",
+          message: "Only Admin can view all staff leave requests",
+        });
+      }
       await leaveModel.getstaffLeave(
         userName,
         role,
         adminstrationId,
-        (err, leaveType) => {
+        async (err, leaveType) => {
           if (err) {
             logger.info(`${req.path} -- ${req.method} -- Success`);
             res.send({
@@ -415,10 +705,14 @@ module.exports = {
             });
           } else {
             logger.info(`${req.path} -- ${req.method} -- Success`);
+            const rows = await enrichStaffLeaveRows(
+              leaveType?.[0] || [],
+              adminstrationId
+            );
             res.send({
               status: "success",
               message: "Leave list  retrived",
-              data: leaveType[0],
+              data: rows,
             });
           }
         }
@@ -597,8 +891,18 @@ module.exports = {
     const { userName, role } = req.user;
     const administrationId = req.user.administrationId;
     try {
-      if (!id || !status || !administrationId) {
-        throw `Missing Credential`;
+      if (roleOf(req) !== "admin") {
+        return res.status(403).send({
+          status: "Error",
+          message: "Only Admin can update staff leave",
+        });
+      }
+      const normalizedStatus = String(status || "").trim().toLowerCase();
+      if (!id || !administrationId || !["accepted", "rejected"].includes(normalizedStatus)) {
+        return res.status(400).send({
+          status: "Error",
+          message: "Valid leave id and status are required",
+        });
       }
       await leaveModel.updateStaffLeaveStatus(
         id,
@@ -706,7 +1010,7 @@ module.exports = {
   leaveModel.getMyStaffLeave(
     userName,
     administrationId,
-    (err, data) => {
+    async (err, data) => {
       if (err) {
         return res.send({
           status: "Error",
@@ -715,10 +1019,11 @@ module.exports = {
         });
       }
 
+      const rows = await enrichStaffLeaveRows(data?.[0] || [], administrationId);
       res.send({
         status: "Success",
         message: "Staff leave retrieved successfully",
-        data: data[0],
+        data: rows,
       });
     }
   );

@@ -57862,3 +57862,6981 @@
   services: 'user-service',
   timestamp: '2026-08-01 16:32:55'
 }
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:43:19'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:43:27'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:44:27'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:44:56'
+}
+{
+  message: '/get_student_attendance -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:45:08'
+}
+{
+  message: '/get_student_attendance -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:45:08'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:45:46'
+}
+{
+  message: '/get_staff_summary -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:45:46'
+}
+{
+  message: '/get_staff_summary -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:45:46'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:46:46'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:47:47'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:48:47'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:49:47'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:50:47'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:51:47'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:52:47'
+}
+{
+  message: '/get_homework -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:53:47'
+}
+{
+  message: '/get_homework -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:53:47'
+}
+{
+  message: '/get_assignment -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:53:47'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:53:47'
+}
+{
+  message: '/get_assignment -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:53:47'
+}
+{
+  message: '/get_student_attendance -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:53:56'
+}
+{
+  message: '/get_student_attendance -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:53:56'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:54:47'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:55:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:56:14'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:56:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:57:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:58:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 11:59:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:00:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:01:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:02:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:03:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:04:38'
+}
+{
+  message: '/get_homework -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:04:49'
+}
+{
+  message: '/get_homework -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:04:49'
+}
+{
+  message: '/get_assignment -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:04:49'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:04:49'
+}
+{
+  message: '/get_assignment -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:04:49'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:05:11'
+}
+{
+  message: '/get_staff_summary -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:05:11'
+}
+{
+  message: '/get_staff_summary -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:05:11'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:05:39'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:06:05'
+}
+{
+  message: '/get_staff_summary -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:06:05'
+}
+{
+  message: '/get_staff_summary -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:06:05'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:06:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:07:05'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:07:28'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:07:30'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:07:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:07:41'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:07:47'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:08:05'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:08:18'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:08:22'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:08:23'
+}
+{
+  message: '/get_staff_summary -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:08:28'
+}
+{
+  message: '/get_staff_summary -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:08:28'
+}
+{
+  message: '/get_assignment_staff_view -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:08:36'
+}
+{
+  message: '/get_assignment_staff_view -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:08:36'
+}
+{
+  message: '/update_assignment_status/47 -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:08:48'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:10:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:10:23'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:10:53'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:10:53'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:10:53'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:10:53'
+}
+{
+  message: '/get_staff_leave -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:10:53'
+}
+{
+  message: '/get_staff_leave -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:10:53'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:11:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:11:24'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:11:54'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:11:54'
+}
+{
+  message: '/get_staff_leave -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:11:54'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:12:13'
+}
+{
+  message: '/get_staff_summary -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:12:17'
+}
+{
+  message: '/get_staff_summary -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:12:17'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:12:24'
+}
+{
+  message: '/get_assignment_staff_view -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:12:29'
+}
+{
+  message: '/get_assignment_staff_view -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:12:29'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:12:33'
+}
+{
+  message: '/get_assignment_staff_view -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:12:33'
+}
+{
+  message: '/get_assignment_staff_view -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:12:33'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:13:03'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:13:03'
+}
+{
+  message: '/get_staff_leave -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:13:03'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:13:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:13:33'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:14:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:14:33'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:15:24'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:15:33'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:16:25'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:16:33'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:17:26'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:17:33'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:18:27'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:18:33'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:19:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:19:33'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:20:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:20:34'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:21:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:21:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:22:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:22:36'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:23:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:23:37'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:24:07'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:24:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:25:07'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:25:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:25:39'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:26:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:26:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:27:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:27:41'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:28:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:28:42'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:29:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:29:43'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:30:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:30:44'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:31:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:31:45'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:32:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:32:46'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:33:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:33:47'
+}
+{
+  message: '/get_assignment_staff_view -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:33:53'
+}
+{
+  message: '/get_assignment_staff_view -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:33:53'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:34:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:34:48'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:35:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:35:49'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:36:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:36:17'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:36:50'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:37:17'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:37:51'
+}
+{
+  message: '/get_assignment_staff_view -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:38:12'
+}
+{
+  message: '/get_assignment_staff_view -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:38:12'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:38:17'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:38:52'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:39:17'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:39:50'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:39:53'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:40:10'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:40:54'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:41:10'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:41:55'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:42:11'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:42:56'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:43:10'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:43:57'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:44:11'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:44:58'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:45:10'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:45:59'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:46:10'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:47:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:47:10'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:48:01'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:48:10'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:49:02'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:49:10'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:50:03'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:50:10'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:51:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:51:10'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:52:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:52:10'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:53:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:53:11'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:54:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:54:12'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:55:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:55:13'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:56:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:56:14'
+}
+{
+  message: '/get_assignment_staff_view -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:56:25'
+}
+{
+  message: '/get_assignment_staff_view -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:56:25'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:56:25'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:56:25'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:57:26'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:57:26'
+}
+{
+  message: '/get_assignment_staff_view -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:58:01'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:58:01'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:58:01'
+}
+{
+  message: '/get_assignment_staff_view -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:58:01'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:59:02'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 12:59:02'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:00:02'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:00:02'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:01:02'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:01:02'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:01:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:02:02'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:02:24'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:03:02'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:03:24'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:04:02'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:04:24'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:05:03'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:05:24'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:06:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:06:24'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:07:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:07:24'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:08:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:08:25'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:09:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:09:26'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:10:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:10:27'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:11:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:11:28'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:12:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:12:29'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:12:30'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:13:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:13:31'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:14:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:14:31'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:15:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:15:31'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:16:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:16:31'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:17:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:17:31'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:18:07'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:18:31'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:19:07'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:19:32'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:20:07'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:20:33'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:21:07'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:21:34'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:22:07'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:22:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:23:07'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:23:36'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:24:07'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:24:37'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:25:07'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:25:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:26:07'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:26:39'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:27:07'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:27:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:28:07'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:28:41'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:29:07'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:29:28'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:29:42'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:30:28'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:30:43'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:31:28'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:31:44'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:32:28'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:32:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:32:45'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:33:30'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:33:33'
+}
+{
+  message: '/get_assignment_staff_view -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:33:33'
+}
+{
+  message: '/get_assignment_staff_view -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:33:33'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:33:36'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:34:34'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:34:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:35:34'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:35:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:36:34'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:36:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:37:34'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:37:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:38:34'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:38:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:39:34'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:39:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:40:34'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:40:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:41:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:41:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:42:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:42:36'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:43:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:43:37'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:44:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:44:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:45:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:45:39'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:46:36'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:46:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:47:37'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:47:41'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:48:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:48:42'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:49:39'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:49:43'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:50:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:50:44'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:51:41'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:51:45'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:52:42'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:52:46'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:53:43'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:53:47'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:54:44'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:54:48'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:55:45'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:55:49'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:56:46'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:56:50'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:57:47'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:57:51'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:58:48'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:58:52'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:59:49'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 13:59:53'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:00:50'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:00:54'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:01:51'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:01:55'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:02:52'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:02:56'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:03:53'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:03:57'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:04:54'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:04:58'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:05:55'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:05:59'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:06:56'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:07:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:07:42'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:07:49'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:08:34'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:08:36'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:09:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:09:37'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:10:36'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:10:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:11:37'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:11:39'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:12:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:12:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:13:39'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:13:41'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:14:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:14:42'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:15:41'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:15:43'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:16:42'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:16:44'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:17:43'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:17:45'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:18:44'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:18:46'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:19:45'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:19:47'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:20:46'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:20:48'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:21:47'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:21:49'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:22:48'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:22:50'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:23:49'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:23:51'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:24:50'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:24:52'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:25:51'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:25:53'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:26:52'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:26:54'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:27:53'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:27:55'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:28:54'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:28:56'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:29:55'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:29:57'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:30:56'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:30:58'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:31:57'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:31:59'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:32:58'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:33:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:33:59'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:34:01'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:35:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:35:02'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:36:01'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:36:03'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:37:02'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:37:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:38:03'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:38:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:39:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:39:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:40:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:40:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:41:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:41:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:42:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:42:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:43:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:43:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:44:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:44:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:45:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:45:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:46:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:46:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:47:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:47:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:48:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:48:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:49:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:49:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:50:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:50:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:51:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:51:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:52:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:52:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:53:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:53:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:53:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:54:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:54:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:55:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:55:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:56:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:56:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:57:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:57:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:58:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:58:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:59:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 14:59:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:00:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:00:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:01:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:01:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:02:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:02:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:03:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:03:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:04:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:04:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:05:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:05:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:06:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:06:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:07:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:07:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:08:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:08:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:09:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:09:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:10:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:10:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:11:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:11:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:12:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:12:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:13:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:13:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:14:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:14:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:15:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:15:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:16:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:16:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:17:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:17:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:18:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:18:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:19:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:19:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:20:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:20:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:21:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:21:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:22:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:22:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:23:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:23:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:24:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:24:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:25:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:25:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:26:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:26:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:27:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:27:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:28:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:28:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:29:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:29:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:30:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:30:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:31:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:31:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:32:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:32:34'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:33:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:33:34'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:34:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:34:33'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:34:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:34:46'
+}
+{
+  message: '/get_staff_summary -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:34:46'
+}
+{
+  message: '/get_staff_summary -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:34:46'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:35:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:35:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:36:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:36:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:37:04'
+}
+{
+  message: '/get_homework -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:37:06'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:37:06'
+}
+{
+  message: '/get_assignment -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:37:06'
+}
+{
+  message: '/get_homework -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:37:06'
+}
+{
+  message: '/get_assignment -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:37:06'
+}
+{
+  message: '/get_student_attendance -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:37:33'
+}
+{
+  message: '/get_student_attendance -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:37:33'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:37:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:37:44'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:38:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:38:06'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:38:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:39:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:39:06'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:39:34'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:40:04'
+}
+{
+  message: '/get_student_attendance -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:40:04'
+}
+{
+  message: '/get_student_attendance -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:40:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:40:06'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:40:20'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:40:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:41:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:41:20'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:41:36'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:42:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:42:06'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:42:37'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:43:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:43:06'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:43:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:44:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:44:06'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:44:39'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:45:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:45:06'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:45:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:46:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:46:06'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:46:14'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:46:41'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:47:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:47:14'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:47:42'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:48:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:48:15'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:48:43'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:49:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:49:14'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:49:44'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:50:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:50:14'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:50:45'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:51:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:51:14'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:51:46'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:52:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:52:14'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:52:47'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:53:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:53:14'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:53:48'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:54:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:54:14'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:54:49'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:55:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:55:14'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:55:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:55:37'
+}
+{
+  message: '/get_student_attendance -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:55:46'
+}
+{
+  message: '/get_student_attendance -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:55:46'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:56:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:56:36'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:56:37'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:57:04'
+}
+{
+  message: '/get_student_attendance -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:57:19'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:57:37'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:57:37'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:58:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:58:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:58:37'
+}
+{
+  message: '/get_student_attendance -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:58:43'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:59:04'
+}
+{
+  message: '/get_student_attendance -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:59:28'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:59:36'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 15:59:37'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:00:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:00:36'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:00:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:01:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:01:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:01:37'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:02:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:02:13'
+}
+{
+  message: '/get_student_attendance -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:02:13'
+}
+{
+  message: '/get_student_attendance -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:02:13'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:02:36'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:03:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:03:13'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:03:37'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:04:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:04:13'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:04:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:04:40'
+}
+{
+  message: '/get_student_attendance -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:04:40'
+}
+{
+  message: '/get_student_attendance -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:04:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:05:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:05:39'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:05:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:06:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:06:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:06:45'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:07:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:07:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:07:41'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:08:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:08:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:08:42'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:09:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:09:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:09:43'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:10:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:10:27'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:10:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:10:44'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:11:04'
+}
+{
+  message: '/get_homework -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:11:11'
+}
+{
+  message: '/get_homework -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:11:11'
+}
+{
+  message: '/get_assignment -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:11:11'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:11:11'
+}
+{
+  message: '/get_assignment -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:11:11'
+}
+{
+  message: '/get_student_attendance -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:11:17'
+}
+{
+  message: '/get_student_attendance -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:11:17'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:11:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:11:45'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:12:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:12:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:12:46'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:13:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:13:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:13:47'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:14:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:14:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:14:48'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:15:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:15:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:15:49'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:16:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:16:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:16:50'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:17:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:17:26'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:17:26'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:17:51'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:18:26'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:18:27'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:18:54'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:19:26'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:19:27'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:19:54'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:20:26'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:20:27'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:20:54'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:21:26'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:21:27'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:21:54'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:22:26'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:22:27'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:22:54'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:23:26'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:23:27'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:23:54'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:24:26'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:24:28'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:24:55'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:25:26'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:25:29'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:25:56'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:26:13'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:26:30'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:26:57'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:27:13'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:27:31'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:27:58'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:28:13'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:28:32'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:28:59'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:29:13'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:29:33'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:30:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:30:13'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:30:34'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:31:01'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:31:13'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:31:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:32:02'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:32:13'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:32:36'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:33:03'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:33:13'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:33:37'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:34:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:34:13'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:34:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:35:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:35:13'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:35:39'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:36:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:36:13'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:36:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:37:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:37:13'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:37:41'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:38:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:38:13'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:38:42'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:38:44'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:39:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:39:43'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:39:44'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:39:57'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:40:04'
+}
+{
+  message: '/get_events -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:40:41'
+}
+{
+  message: '/get_events -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:40:41'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:40:44'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:40:45'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:40:45'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:40:45'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:40:45'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:40:57'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:41:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:41:45'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:41:57'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:42:04'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:42:17'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:42:17'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:42:30'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:42:33'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:42:37'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:42:37'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:42:37'
+}
+{
+  message: '/get_staff_leave -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:42:37'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:42:38'
+}
+{
+  message: '/get_staff_leave -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:42:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:42:58'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:43:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:43:33'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:43:53'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:43:58'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:44:26'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:44:26'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:44:26'
+}
+{
+  message: '/get_staff_leave -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:44:26'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:44:26'
+}
+{
+  message: '/get_staff_leave -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:44:26'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:44:26'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:44:54'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:44:58'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:45:27'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:45:55'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:45:58'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:46:27'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:46:56'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:46:58'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:46:59'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:46:59'
+}
+{
+  message: '/get_staff_leave -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:46:59'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:46:59'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:46:59'
+}
+{
+  message: '/get_staff_leave -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:46:59'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:46:59'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:47:54'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:47:59'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:48:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:48:55'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:48:59'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:49:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:49:05'
+}
+{
+  message: '/get_staff_summary -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:49:05'
+}
+{
+  message: '/get_staff_summary -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:49:05'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:49:56'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:50:01'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:50:05'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:50:57'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:51:02'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:51:05'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:51:58'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:52:03'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:52:05'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:52:20'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:52:20'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:52:59'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:53:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:53:05'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:54:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:54:04'
+}
+{
+  message: '/get_staff_summary -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:54:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:54:04'
+}
+{
+  message: '/get_staff_summary -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:54:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:54:50'
+}
+{
+  message: '/get_staff_summary -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:54:50'
+}
+{
+  message: '/get_staff_summary -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:54:50'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:54:59'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:54:59'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:54:59'
+}
+{
+  message: '/get_staff_leave -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:54:59'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:54:59'
+}
+{
+  message: '/get_staff_leave -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:54:59'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:55:01'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:55:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:55:50'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:55:54'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:56:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:56:50'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:56:54'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:57:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:57:50'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:57:55'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:58:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:58:50'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:58:56'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:59:04'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:59:36'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:59:36'
+}
+{
+  message: '/get_staff_leave -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:59:36'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:59:36'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:59:36'
+}
+{
+  message: '/get_staff_leave -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:59:36'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:59:36'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 16:59:57'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:00:04'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:00:20'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:00:20'
+}
+{
+  message: '/get_staff_leave -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:00:21'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:00:21'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:00:21'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:00:21'
+}
+{
+  message: '/get_staff_leave -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:00:21'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:00:58'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:01:04'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:01:11'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:01:11'
+}
+{
+  message: '/get_staff_leave -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:01:11'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:01:11'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:01:11'
+}
+{
+  message: '/get_staff_leave -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:01:11'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:01:11'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:01:59'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:02:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:02:11'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:03:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:03:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:03:11'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:04:01'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:04:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:04:11'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:05:02'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:05:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:05:11'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:06:03'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:06:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:06:11'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:06:28'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:06:28'
+}
+{
+  message: '/get_staff_leave -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:06:28'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:06:28'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:06:28'
+}
+{
+  message: '/get_staff_leave -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:06:28'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:06:28'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:07:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:07:04'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:07:04'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:07:04'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:07:04'
+}
+{
+  message: '/get_staff_leave -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:07:04'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:07:04'
+}
+{
+  message: '/get_staff_leave -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:07:05'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:07:05'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:08:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:08:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:08:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:09:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:09:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:09:04'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:09:20'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:09:20'
+}
+{
+  message: '/get_staff_leave -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:09:20'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:09:21'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:09:21'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:09:27'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:09:27'
+}
+{
+  message: '/get_staff_leave -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:09:27'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:09:28'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:09:28'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:09:48'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:09:48'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:09:49'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:09:49'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:10:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:10:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:10:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:11:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:11:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:11:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:12:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:12:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:12:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:13:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:13:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:13:05'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:13:16'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:13:16'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:13:24'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:13:24'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:13:24'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:13:24'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:13:24'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:13:34'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:13:37'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:13:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:13:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:13:42'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:13:43'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:13:47'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:13:47'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:13:50'
+}
+{
+  message: '/get_homework -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:13:50'
+}
+{
+  message: '/get_homework -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:13:50'
+}
+{
+  message: '/get_assignment -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:13:50'
+}
+{
+  message: '/get_assignment -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:13:50'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:14:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:14:05'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:14:07'
+}
+{
+  message: '/get_events -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:14:16'
+}
+{
+  message: '/get_events -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:14:16'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:15:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:15:05'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:15:08'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:15:53'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:16:06'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:16:08'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:16:54'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:17:07'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:17:08'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:17:15'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:18:08'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:18:08'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:18:15'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:19:08'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:19:09'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:19:15'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:20:08'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:20:10'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:20:15'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:21:08'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:21:11'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:21:15'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:22:09'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:22:12'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:22:15'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:22:48'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:23:10'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:23:13'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:23:49'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:24:11'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:24:14'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:24:48'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:25:12'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:25:15'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:25:48'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:26:13'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:26:16'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:26:32'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:27:14'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:27:17'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:27:32'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:28:15'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:28:18'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:28:32'
+}
+{
+  message: '/get_leaveType -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:28:38'
+}
+{
+  message: '/get_student_leave -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:28:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:29:16'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:29:19'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:29:33'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:30:17'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:30:20'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:30:33'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:31:18'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:31:21'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:31:33'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:31:58'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:31:58'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:32:19'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:33:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:33:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:33:20'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:34:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:34:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:34:21'
+}
+{
+  message: '/get_staff_summary -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:34:40'
+}
+{
+  message: '/get_staff_summary -- POST -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:34:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:34:48'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:35:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:35:22'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:35:48'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:36:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:36:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:36:48'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:37:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:37:24'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:37:48'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:38:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:38:25'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:38:48'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:39:01'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:39:26'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:39:48'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:40:02'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:40:27'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:40:48'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:41:03'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:41:28'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:41:48'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:42:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:42:29'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:42:43'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:42:44'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:43:30'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:43:43'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:43:45'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:44:31'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:44:43'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:44:45'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:45:32'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:45:43'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:45:45'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:46:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:46:33'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:46:45'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:47:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:47:34'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:47:45'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:48:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:48:35'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:48:45'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:49:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:49:36'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:49:46'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:50:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:50:37'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:50:47'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:51:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:51:38'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:51:48'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:52:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:52:39'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:52:49'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:53:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:53:40'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:53:50'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:54:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:54:41'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:54:51'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:55:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:55:42'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:55:52'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:56:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:56:43'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:56:53'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:57:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:57:44'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:57:54'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:58:24'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:58:45'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:58:55'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:59:24'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:59:46'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 17:59:56'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:00:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:00:47'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:00:57'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:01:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:01:48'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:01:58'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:02:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:02:49'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:02:55'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:03:24'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:03:45'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:03:50'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:04:25'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:04:46'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:04:51'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:05:01'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:05:47'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:05:52'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:06:02'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:06:48'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:06:53'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:07:02'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:07:49'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:07:54'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:08:02'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:08:50'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:08:55'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:09:02'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:09:51'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:09:56'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:10:02'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:10:52'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:10:57'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:11:02'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:11:53'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:11:58'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:12:03'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:12:54'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:12:59'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:13:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:13:55'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:14:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:14:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:14:56'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:15:01'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:15:01'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:15:22'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:15:57'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:16:02'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:16:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:16:58'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:17:03'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:17:23'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:17:59'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:18:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:18:22'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:19:00'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:19:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:19:22'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:20:01'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:20:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:20:22'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:21:02'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:21:04'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:21:22'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:22:03'
+}
+{
+  message: '/get_notification -- GET -- Success',
+  level: 'info',
+  services: 'user-service',
+  timestamp: '2026-08-05 18:22:04'
+}
