@@ -90,16 +90,20 @@ module.exports = {
     reason,
     noOfDays,
     administrationId,
+    leaveTypeId,
     callback
   ) => {
     const sql = `call sp_InsUpStdLeave('${userId}',${classId},${sectionId},'${startDate}','${endDate}','${reason}',${noOfDays},${administrationId})`;
     con.query(sql, (err, data) => {
       console.log(sql);
-      if (err) {
-        callback(err, null);
-      } else {
+      if (err) return callback(err, null);
+      if (!leaveTypeId) return callback(null, data);
+      // Attach leaveTypeId via a follow-up UPDATE on the newest row for this student
+      const updateSql = `UPDATE tbl_studentleave SET leaveTypeId = ? WHERE userId = ? AND administrationId = ? ORDER BY id DESC LIMIT 1`;
+      con.query(updateSql, [Number(leaveTypeId), String(userId), Number(administrationId)], (updateErr) => {
+        if (updateErr) console.error("[leave] leaveTypeId update failed:", updateErr.message);
         callback(null, data);
-      }
+      });
     });
   },
 

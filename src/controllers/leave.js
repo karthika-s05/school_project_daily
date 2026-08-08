@@ -465,7 +465,7 @@ module.exports = {
     }
   },
   createStudentLeave: async (req, res) => {
-    const { startDate, endDate, reason } = req.body;
+    const { startDate, endDate, reason, leaveTypeId } = req.body;
     const userId = req.user.userName;
     const classId = req.user.classId || req.body.classId;
     const sectionId = req.user.sectionId || req.body.sectionId;
@@ -473,9 +473,7 @@ module.exports = {
     const newStartDate = new Date(startDate);
     const newEndDate = new Date(endDate);
     const timeDifference = newEndDate - newStartDate;
-    console.log(parseInt(timeDifference));
     const noOfDays = timeDifference / (1000 * 60 * 60 * 24) + 1;
-    console.log(noOfDays);
     try {
       if (!administrationId) {
         throw "Missing Credential";
@@ -489,6 +487,7 @@ module.exports = {
         reason,
         noOfDays,
         administrationId,
+        leaveTypeId || null,
         (err, leaveType) => {
           if (err) {
             res.send({
@@ -904,6 +903,27 @@ module.exports = {
           message: "Valid leave id and status are required",
         });
       }
+
+      // Fetch the leave row BEFORE updating so we have staffId for notification
+      let targetStaffId = req.body.staffId || req.body.userName || null;
+      let leavePayload = null;
+
+      if (!targetStaffId) {
+        try {
+          await new Promise((resolve) => {
+            leaveModel.getstaffLeave("0", "Admin", administrationId, (err, data) => {
+              const list = Array.isArray(data) ? data[0] || [] : [];
+              const found = list.find((item) => Number(item.id) === Number(id));
+              if (found) {
+                targetStaffId = found.staffId || found.userName || found.staffID || null;
+                leavePayload = found;
+              }
+              resolve();
+            });
+          });
+        } catch (_) {}
+      }
+
       await leaveModel.updateStaffLeaveStatus(
         id,
         status,
@@ -911,96 +931,80 @@ module.exports = {
         userName,
         role,
         administrationId,
-        (err) => {
+        async (err) => {
           if (err) {
-            res.send({
+            return res.send({
               status: "Error",
               message: "Staff leave status not updated",
               data: err,
             });
-          } else {
-            const normalized = String(status || "").trim().toLowerCase();
+          }
 
-            // Targeted leave status notification to the staff member when possible.
-            substituteController.getStaffLeaveById(id, administrationId, async (leaveErr, leaveRow) => {
-              const targetStaff =
-                leaveRow?.staffId ||
-                leaveRow?.staffID ||
-                leaveRow?.userName ||
-                null;
+          // Send notification to the staff member
+          const isApproved = normalizedStatus === "accepted";
+          const notifTitle = isApproved ? "Leave Approved ✓" : "Leave Rejected";
+          const notifMessage = isApproved
+            ? `Your leave request (ID: ${id}) has been Approved by the Admin.${
+                remarks ? ` Remarks: ${remarks}` : ""
+              }`
+            : `Your leave request (ID: ${id}) has been Rejected by the Admin.${
+                remarks ? ` Reason: ${remarks}` : ""
+              }`;
 
-              createTargetedNotification({
-                title:
-                  normalized === "accepted"
-                    ? "Leave Approved"
-                    : normalized === "rejected"
-                      ? "Leave Rejected"
-                      : "Staff Leave Request Update",
-                message: `Your leave request has been ${
-                  normalized === "accepted" ? "Approved" : status
-                }.`,
-                recipientUserName: targetStaff,
+          if (targetStaffId) {
+            notificationService
+              .createNotification({
+                title: notifTitle,
+                message: notifMessage,
+                receiverId: String(targetStaffId),
                 receiverRole: "Staff",
                 administrationId,
-                senderUserName: userName,
+                senderId: userName,
+                senderRole: "Admin",
                 notificationType: "Leave",
-                referenceId: id,
+                referenceId: String(id),
+              })
+              .then(() => {
+                console.log(`[leave-notify] staff leave ${normalizedStatus} notification sent to ${targetStaffId}`);
+              })
+              .catch((notifErr) => {
+                console.error("[leave-notify] staff leave notification failed:", notifErr.message || notifErr);
               });
-
-              if (normalized === "accepted") {
-                const leavePayload = leaveRow || {
-                  id,
-                  staffId: req.body.staffId || req.body.userName || null,
-                  staffName: req.body.staffName,
-                  startDate: req.body.startDate || req.body.fromDate,
-                  endDate: req.body.endDate || req.body.toDate,
-                  leaveTime: req.body.leaveTime || "Full day",
-                };
-                // If staffId still missing, try SP list again with Admin role
-                if (!leavePayload.staffId && !leavePayload.userName) {
-                  leaveModel.getstaffLeave(userName, "Admin", administrationId, async (listErr, listData) => {
-                    const list = Array.isArray(listData) ? listData[0] || [] : [];
-                    const found = list.find((item) => Number(item.id) === Number(id));
-                    if (found) {
-                      try {
-                        await substituteController.createRequestsForApprovedLeave(
-                          found,
-                          administrationId,
-                          userName
-                        );
-                      } catch (subErr) {
-                        console.error("Substitute create failed:", subErr);
-                      }
-                    }
-                    res.send({
-                      status: "success",
-                      message: "Staff leave status updated",
-                    });
-                  });
-                  return;
-                }
-
-                try {
-                  await substituteController.createRequestsForApprovedLeave(
-                    leavePayload,
-                    administrationId,
-                    userName
-                  );
-                } catch (subErr) {
-                  console.error("Substitute create failed:", subErr);
-                }
-              }
-
-              res.send({
-                status: "success",
-                message: "Staff leave status updated",
-              });
-            });
+          } else {
+            console.warn(`[leave-notify] could not resolve staffId for leave ${id} — notification skipped`);
           }
+
+          // Create substitute requests if approved
+          if (isApproved) {
+            const payload = leavePayload || {
+              id,
+              staffId: targetStaffId,
+              startDate: req.body.startDate || req.body.fromDate,
+              endDate: req.body.endDate || req.body.toDate,
+              leaveTime: req.body.leaveTime || "Full day",
+            };
+            try {
+              await substituteController.createRequestsForApprovedLeave(
+                payload,
+                administrationId,
+                userName
+              );
+            } catch (subErr) {
+              console.error("[leave] substitute create failed:", subErr.message || subErr);
+            }
+          }
+
+          return res.send({
+            status: "success",
+            message: "Staff leave status updated",
+          });
         }
       );
     } catch (error) {
-      res.send(error);
+      res.send({
+        status: "Error",
+        message: error?.message || error,
+      });
     }
   },
 
