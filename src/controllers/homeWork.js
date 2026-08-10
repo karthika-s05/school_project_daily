@@ -49,7 +49,7 @@ module.exports = {
               data = {
                 status: "success",
                 message: "HomeWork list retrived success",
-                data: homeWork[0],
+                data: (homeWork[0] || []).sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt)),
               };
               logger.info(`${req.path} -- ${req.method} -- Success`);
               res.send(data);
